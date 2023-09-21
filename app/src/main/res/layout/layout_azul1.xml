@@ -22,9 +22,30 @@
         android:layout_marginTop="20sp"
         android:layout_marginLeft="50sp"
         android:layout_marginRight="50sp"
-    
+
         />
 
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/seta"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:scaleType="centerCrop"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPANY NAME"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOLOGAN HERE"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        />
 </LinearLayout>
