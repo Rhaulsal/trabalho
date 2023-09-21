@@ -48,4 +48,44 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10sp"
         />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:padding="15dp"
+        android:text="Sign in"
+        android:textSize="15dp"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:padding="15dp"
+        android:text="Sign up"
+        android:textSize="15dp"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in with Social Media"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        />
+
+    <ImageView
+        android:layout_width="133dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/social_media" />
 </LinearLayout>
