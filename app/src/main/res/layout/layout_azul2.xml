@@ -30,10 +30,10 @@
         android:drawableEnd="@drawable/person"
         android:hint="User Name"
         android:textColorHint="#fff"
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:maxLength=""
         android:padding="20sp"
-        />/>
+        />
 
     <EditText
         android:id="@+id/edtSenha"
