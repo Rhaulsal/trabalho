@@ -23,7 +23,7 @@
         android:src="@drawable/seta" />
 
     <EditText
-        android:id="@+id/edtEmail"
+        android:id="@+id/edtnmome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
@@ -31,7 +31,6 @@
         android:hint="User Name"
         android:textColorHint="#fff"
         android:inputType="textPersonName"
-        android:maxLength=""
         android:padding="20sp"
         />
 
@@ -57,12 +56,11 @@
         android:hint="E-mail"
         android:textColorHint="#fff"
         android:inputType="textEmailAddress"
-        android:maxLength=""
         android:padding="20sp"
         />
 
     <EditText
-        android:id="@+id/edtSenha"
+        android:id="@+id/edtphone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
@@ -81,7 +79,7 @@
         android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
         android:text="Allow Term & Conditions"
-        android:textColor="#fff"/>/>
+        android:textColor="#fff"/>
 
 
 
@@ -102,16 +100,16 @@
 
 
     <TextView
-        android:id="@+id/txtEsqueceuSenha"
+        android:id="@+id/txtSemconta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="200dp"
         android:text="Dont´ have account?"
         android:layout_marginTop="20dp"
-        android:textColor="#fff"/>/>
+        android:textColor="#fff"/>
 
     <TextView
-        android:id="@+id/txtEsqueceuSenha"
+        android:id="@+id/txtLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="260dp"
