@@ -50,68 +50,32 @@
 
 
         />
-    <CheckBox
-        android:id="@+id/checkBox"
+    <TextView
+        android:id="@+id/txtEsqueceuSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Remember Password"
-        android:layout_marginLeft="20dp"
-        android:textColor="#fff"/>/>
+        android:text="Forgot your password?"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="#fff"/>
 
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:orientation="horizontal">
 
         <Button
 
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="5dp"
-            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="1dp"
             android:text="Sign in"
+            android:textSize="20dp"
+            android:layout_marginTop="210dp"
+            android:background="#FF0000"
             android:textAllCaps="true"
 
             />
-        <TextView
-            android:id="@+id/txtEsqueceuSenha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
-            android:text="Forget Password?"
-            android:textColor="#fff"/>/>
 
-
-    </LinearLayout>
-    <TextView
-        android:id="@+id/txtEsqueceuSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="200dp"
-        android:text="Dont´ have account?"
-        android:textColor="#fff"/>/>
-
-    <TextView
-        android:id="@+id/txtEsqueceuSenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="260dp"
-        android:text="Sign up"
-        android:textSize="20dp"
-        android:textColor="#fff"/>
-    <ImageView
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:src="@drawable/setadois"
-        android:layout_gravity="right"
-        android:layout_marginTop="-50dp"
-        android:layout_marginRight="20dp"
-        />
 
 
 </LinearLayout>
