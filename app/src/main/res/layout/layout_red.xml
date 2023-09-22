@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF0000"
+    tools:context=".Layout_Red">
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="bandio"
+       android:textSize="60dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="70dp"
+       android:textColor="#F8F8FF"
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:drawableEnd="@drawable/person"
+        android:hint="User Name"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        android:maxLength=""
+        android:padding="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:textColorHint="#fff"
+        android:drawableEnd="@drawable/lock"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:padding="20sp"
+
+
+        />
+    <TextView
+        android:id="@+id/txtEsqueceuSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Forgot your password?"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="#fff"/>
+
+
+
+    <Button
+
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:padding="1dp"
+        android:text="Sign in"
+        android:textSize="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="70dp"
+        android:textAllCaps="true"
+
+        />
+</LinearLayout>
