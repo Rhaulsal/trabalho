@@ -26,7 +26,7 @@
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
+        android:layout_margin="10sp"
         android:drawableEnd="@drawable/person"
         android:hint="User Name"
         android:textColorHint="#fff"
@@ -39,7 +39,7 @@
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
+        android:layout_margin="10sp"
         android:textColorHint="#fff"
         android:drawableEnd="@drawable/lock"
         android:hint="Password"
@@ -52,8 +52,8 @@
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
-        android:drawableEnd="@drawable/person"
+        android:layout_margin="10sp"
+        android:drawableEnd="@drawable/email"
         android:hint="E-mail"
         android:textColorHint="#fff"
         android:inputType="textEmailAddress"
@@ -65,9 +65,9 @@
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
+        android:layout_margin="10sp"
         android:textColorHint="#fff"
-        android:drawableEnd="@drawable/lock"
+        android:drawableEnd="@drawable/phone"
         android:hint="Phone"
         android:inputType="phone"
         android:maxLength="80"
@@ -79,46 +79,35 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Remember Password"
-        android:layout_marginLeft="20dp"
+    android:layout_gravity="center_horizontal"
+        android:text="Allow Term & Conditions"
         android:textColor="#fff"/>/>
 
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:orientation="horizontal">
+
 
         <Button
 
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_marginRight="5dp"
+            android:layout_gravity="center_horizontal"
             android:padding="10dp"
+            android:layout_margin="10dp"
             android:text="Sign in"
             android:textAllCaps="true"
 
             />
-        <TextView
-            android:id="@+id/txtEsqueceuSenha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
-            android:text="Forget Password?"
-            android:textColor="#fff"/>/>
 
 
-    </LinearLayout>
+
     <TextView
         android:id="@+id/txtEsqueceuSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="200dp"
         android:text="Dont´ have account?"
+        android:layout_marginTop="20dp"
         android:textColor="#fff"/>/>
 
     <TextView
