@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#7972ee"
-    tools:context=".Layout_Activity1">
-
+    tools:context=".LayoutActivity2">
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,16 +17,16 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40sp"
         /><TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#A9A9A9"
-        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20sp"
-        android:layout_marginLeft="90sp"
-        android:layout_marginRight="90sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#A9A9A9"
+    android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20sp"
+    android:layout_marginLeft="90sp"
+    android:layout_marginRight="90sp"
 
-        />
+    />
 
     <ImageView
         android:layout_width="50dp"
@@ -94,4 +93,5 @@
         android:layout_marginTop="5dp"
         android:scaleType="centerCrop"
         android:src="@drawable/social_media" />
+
 </LinearLayout>
